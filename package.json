@@ -1,9 +1,9 @@
 {
-  "name": "hal",
+  "name": "hubot",
   "version": "0.0.0",
   "private": true,
   "author": "Andrew Ekstedt <ekstedta@oregonstate.edu>",
-  "description": "I can't let you do that, Dave",
+  "description": "Your plastic pal who's fun to be with",
   "dependencies": {
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.1",

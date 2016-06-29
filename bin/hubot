@@ -7,4 +7,4 @@ cd "$(dirname "$0")/.."
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
 [ -f config.sh ] && source config.sh
 
-exec node_modules/.bin/hubot --name "hal" "$@"
+exec node_modules/.bin/hubot --name "hubot" "$@"
