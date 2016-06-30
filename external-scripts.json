@@ -1,5 +1,6 @@
 [
   "hubot-diagnostics",
+  "hubot-flipanything",
   "hubot-help",
   "hubot-github-repo-event-notifier",
   "hubot-giphy-gifme",
