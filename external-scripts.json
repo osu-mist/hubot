@@ -2,6 +2,7 @@
   "hubot-diagnostics",
   "hubot-help",
   "hubot-github-repo-event-notifier",
+  "hubot-giphy-gifme",
   "hubot-google-images",
   "hubot-google-translate",
   "hubot-maps",
