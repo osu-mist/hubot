@@ -5,6 +5,7 @@ set -e
 cd "$(dirname "$0")/.."
 
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
-[ -f config.sh ] && source config.sh
+[ -f config.env ] && source config.env
+[ -f local.env ] && source local.env
 
 exec node_modules/.bin/hubot --name "hubot" "$@"
