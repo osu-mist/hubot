@@ -152,7 +152,7 @@ jenkinsDescribe = (msg) ->
                   response = ""
                   try
                     content = JSON.parse(body)
-                    console.log(JSON.stringify(content, null, 4))
+                    # console.log(JSON.stringify(content, null, 4))
                     jobstatus = content.result || 'PENDING'
                     jobdate = new Date(content.timestamp);
                     response += "LAST JOB: #{jobstatus}, #{jobdate}\n"
