@@ -6,6 +6,7 @@
   "hubot-giphy-gifme",
   "hubot-google-images",
   "hubot-maps",
+  "hubot-newrelic2",
   "hubot-rules",
   "jobot-brain-file"
 ]
