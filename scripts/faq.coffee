@@ -28,7 +28,7 @@ module.exports = (robot) ->
     res.send "See also https://wiki.library.oregonstate.edu/confluence/display/MIST/Configuring+SQL+Developer+on+Ubuntu+14.X"
 
   robot.respond /printers?$/i, (res) ->
-    res.send "To add a printer in Windows, create a *local* printer with one of the following ports:"
+    res.send "To print, create a local printer with one of the following ports:"
 
     res.send "Xerox Phaser 3250 (black and white laser printer next to Eddy Beamer's cube): Xerox-Phaser-3250.tss.oregonstate.edu"
     res.send "Xerox Phaser 6700DN (color laser printer by the 2nd floor west staircase door): Xerox-Phaser6700-mcc206.tss.oregonstate.edu"
